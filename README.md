@@ -10,10 +10,10 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "transfer",
   "contractPayload": {
-    "symbol": '',
-    "to": '',
-    "quantity": '',
-    "memo": ''
+    "symbol": "",
+    "to": "",
+    "quantity": "",
+    "memo": ""
   }
 }
 ```
@@ -24,9 +24,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "stake",
   "contractPayload": {
-    "to": '',
-    "symbol": '',
-    "quantity": ''
+    "to": "",
+    "symbol": "",
+    "quantity": ""
   }
 }
 ```
@@ -37,8 +37,8 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "unstake",
   "contractPayload": {
-    "symbol": '',
-    "quantity": ''
+    "symbol": "",
+    "quantity": ""
   }
 }
 ```
@@ -49,7 +49,7 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "cancelUnstake",
   "contractPayload": {
-    "txID": ''
+    "txID": ""
   }
 }
 ```
@@ -60,9 +60,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "delegate",
   "contractPayload": {
-    "to": '',
-    "symbol": '',
-    "quantity": ''
+    "to": "",
+    "symbol": "",
+    "quantity": ""
   }
 }
 ```
@@ -73,9 +73,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "undelegate",
   "contractPayload": {
-    "from": '',
-    "symbol": '',
-    "quantity": ''
+    "from": "",
+    "symbol": "",
+    "quantity": ""
   }
 }
 ```
@@ -86,9 +86,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "market",
   "contractAction": 'buy',
   "contractPayload": {
-    "symbol": '',
-    "quantity": '',
-    "price": ''
+    "symbol": "",
+    "quantity": "",
+    "price": ""
   }
 }
 ```
@@ -99,9 +99,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "market",
   "contractAction": 'sell',
   "contractPayload": {
-    "symbol": '',
-    "quantity": '',
-    "price": ''
+    "symbol": "",
+    "quantity": "",
+    "price": ""
   }
 }
 ```
@@ -112,8 +112,8 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "market",
   "contractAction": "cancel",
   "contractPayload": {
-    "type": '',
-    "id": ''
+    "type": "",
+    "id": ""
   }
 }
 ```
@@ -124,9 +124,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "enableStaking",
   "contractPayload": {
-    "symbol": '',
-    "unstakingCooldown": '',
-    "numberTransactions": ''
+    "symbol": "",
+    "unstakingCooldown": 0,
+    "numberTransactions": 0
   }
 }
 ```
@@ -137,8 +137,8 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "enableDelegation",
   "contractPayload": {
-    "symbol": '',
-    "undelegationCooldown": ''
+    "symbol": "",
+    "undelegationCooldown": 0
   }
 }
 ```
@@ -149,8 +149,8 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "updateMetadata",
   "contractPayload": {
-    "symbol": '',
-    "metadata": ''
+    "symbol": "",
+    "metadata": ""
   }
 }
 ```
@@ -161,8 +161,8 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "updatePrecision",
   "contractPayload": {
-    "symbol": '',
-    "precision": ''
+    "symbol": "",
+    "precision": 0
   }
 }
 ```
@@ -173,10 +173,10 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "create",
   "contractPayload": {
-    "symbol": '',
-    "name": '',
-    "precision": '',
-    "maxSupply": ''
+    "symbol": "",
+    "name": "",
+    "precision": 0,
+    "maxSupply": 0
   }
 }
 ```
@@ -187,9 +187,9 @@ JSON for all the transactions possible on hive-engine sidechain. Transactions ar
   "contractName": "tokens",
   "contractAction": "issue",
   "contractPayload": {
-    "symbol": '',
-    "to": '',
-    "quantity": ''
+    "symbol": "",
+    "to": "",
+    "quantity": ""
   }
 }
 ```
